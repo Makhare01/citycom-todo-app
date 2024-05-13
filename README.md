@@ -1,38 +1,42 @@
-# create-svelte
+# Todo Project
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This project is a simple todo application built using SvelteKit, TypeScript, Tailwind CSS for UI styling, date-fns for working with dates, and Chart.js for creating charts.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Add, edit, and delete todo items.
+- Mark todo items as complete.
+- View todo items with expiration dates.
+- Sort todo items by priority.
+- Visualize todo counts by expiration date using charts.
+- Visualize todo counts by priority.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Technologies Used
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- **SvelteKit**: A framework for building modern web applications with Svelte.
+- **TypeScript**: A superset of JavaScript that adds static types to the language.
+- **Tailwind CSS**: A utility-first CSS framework for quickly building custom designs.
+- **date-fns**: A modern JavaScript date utility library for parsing, formatting, and manipulating dates.
+- **Chart.js**: A simple yet flexible JavaScript charting library for creating responsive charts.
+- **clsx**: Utility for constructing `className` strings conditionally.
 
-## Developing
+## Getting Started
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To get started with this project, follow these steps:
 
-```bash
-npm run dev
+1. Clone the repository: `git clone https://github.com/Makhare01/citycom-todo-app.git`
+2. Install dependencies: `cd citycom-todo-app && npm install`
+3. Start the development server: `npm run dev`
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Usage
 
-## Building
+- Open the application in your web browser.
+- Add new todo items using the input field.
+- Set todo end date and priority.
+- Edit or delete existing todo items as needed.
+- Mark todo items as complete by checking the checkbox.
+- Visualize todo statistics using charts.
 
-To create a production version of your app:
+## Contact
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+If you have any questions or suggestions, feel free to reach out to [maxare2015@gmail.com](mailto:maxare2015@gmail.com).
