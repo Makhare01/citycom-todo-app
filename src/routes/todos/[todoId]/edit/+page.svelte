@@ -29,7 +29,7 @@
 <TodoForm
 	defaultValues={{
 		title: currentTodo?.title ?? '',
-		endDate: currentTodo?.expireDate ? format(currentTodo.expireDate, 'MM/dd/yyy') : '',
+		endDate: currentTodo?.expireDate ? format(currentTodo.expireDate, 'yyyy-MM-dd') : '',
 		priority: currentTodo?.priority ?? 'LOW'
 	}}
 	submitText="Edit"

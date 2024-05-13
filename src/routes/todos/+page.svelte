@@ -8,7 +8,7 @@
 	const completed = $state($todoStore.filter((todo) => todo.completed).length);
 </script>
 
-<div class="w-full">
+<div class="w-full pb-5">
 	<div class="flex items-center justify-between max-w-xl">
 		<p class="text-xl font-semibold text-primary-text">
 			Todo Done: <span class="font-bold text-black">{`${completed}/${total}`}</span>

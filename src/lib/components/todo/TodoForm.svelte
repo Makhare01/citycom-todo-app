@@ -2,6 +2,7 @@
 	import type { TodoFormValues, TodoPriority } from '$lib/types';
 	import { todoPriorities } from '$lib/utils';
 	import { createEventDispatcher } from 'svelte';
+	import arrowLeftImage from '$lib/icons/arrow-left.png';
 
 	const {
 		defaultValues,
@@ -22,7 +23,14 @@
 		event.preventDefault();
 		dispatch('submit', formValues);
 	}}
+	class="w-full md:max-w-sm"
 >
+	<a href="/todos" class="group">
+		<div class="flex items-center gap-2 mb-2">
+			<img src={arrowLeftImage} alt="Back" class="h-6" />
+			<p class="text-sm text-primary-text group-hover:text-primary-main">Back to todo list</p>
+		</div>
+	</a>
 	<p class="text-lg font-semibold mb-3">Add todo</p>
 	<div>
 		<p class="text-md ml-1 mb-1">Title</p>

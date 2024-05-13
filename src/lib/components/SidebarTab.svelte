@@ -8,8 +8,8 @@
 </script>
 
 <div
-	class={clsx('flex p-2 border-l-[6px] border-transparent', {
-		'border-l-[#01b297] text-red-500': $page.url.pathname.includes(path)
+	class={clsx('flex p-2 md:border-l-[6px] border-b-[6px] md:border-b-0 border-transparent', {
+		'md:border-l-[#01b297] border-b-[#01b297]': $page.url.pathname.includes(path)
 	})}
 >
 	<a
