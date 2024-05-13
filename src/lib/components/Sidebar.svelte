@@ -16,7 +16,7 @@
 	];
 </script>
 
-<div class="min-w-[200px] flex flex-col gap-5">
+<div class="min-w-[200px] flex flex-row md:flex-col gap-5">
 	{#each tabs as tab}
 		<SidebarTab {...tab} />
 	{/each}
